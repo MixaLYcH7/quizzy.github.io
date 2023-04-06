@@ -1,0 +1,60 @@
+body {
+    background: #000000;
+  }
+  
+  #stars {
+    width: 3px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform-origin: 0 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    animation: rotate 270s infinite linear;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .content{
+    display: flex;
+    flex-direction: row ;
+  }
+  #information{
+    margin: 50px auto;
+    width: 60pc;
+    height: 55pc;
+    background-color: #fff;
+    border-radius: 20px ;
+    border: 3px solid black;
+    box-shadow: 0 0 10px 10px white;
+  }
+  #cosmos{
+    margin: 10px;
+    border-radius: 20px ;
+  }
+  #submit1 {
+    margin: 10px auto;
+    background-color: #000000;
+    color: white;
+    box-shadow: 0 0 20px black;
+    height: 70px;
+    width: 100px;
+    border-radius: 25px;
+  }
+
+  #submit1:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0;
+    font-size: 20px;
+    transition: 0.8s;
+  }
